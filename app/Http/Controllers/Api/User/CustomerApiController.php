@@ -15,7 +15,7 @@ class CustomerApiController extends Controller
     
     public function index()
     {
-        //
+        return response()->json('Lista de teste');
     }
 
 
