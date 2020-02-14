@@ -699,7 +699,7 @@ var appRoutes = [
     },
     {
         path: '**',
-        redirectTo: 'dashboard',
+        redirectTo: 'register/user',
         pathMatch: 'full'
     }
 ];
