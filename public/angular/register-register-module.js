@@ -1,5 +1,18 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["register-register-module"],{
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/details-benefits/details-benefits.component.html":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/details-benefits/details-benefits.component.html ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"profile-card\" [ngStyle]=\"{background: 'url(angular/assets/images/backgrounds/register_2.jpg'}\">\n    <!-- <img src=\"angular/assets/user.png\" [alt]=\"fullName\"> -->\n  \n    <h1 class=\"title\">Benefícios </h1>\n  \n    <label>\n      Tenha todos os benefícios de nossos clientes cadastrados.\n    </label>\n\n\n    <ul class=\"a\">\n      <li>Compre em um estabelecimento</li>\n      <li>Receba desconto</li>\n      <li>Ganhe Cupons em nossos estabelecimentos</li>\n      <li>Receba brindes no app</li>\n      <li>Receba</li>\n      <li>Receba</li>\n    </ul>\n  \n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/register-user/register-user.component.html":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/register/register-user/register-user.component.html ***!
@@ -9,7 +22,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<form [formGroup]=\"form\">\n    <p>Use the form below to change your password.</p>\n  \n    <div fxLayout=\"row\">\n  \n      <div fxFlex=\"40%\" fxFlex.md=\"60%\" fxFlex.sm=\"50%\" fxFlex.xs=\"100%\">\n  \n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Nome de usuário\" formControlName=\"name\"\n            autocomplete=\"name\"> \n          <mat-error *ngIf=\"form.controls['name'].hasError('required')\">\n            Campo nome obrigatório\n          </mat-error>\n        </mat-form-field>\n        \n\n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Email de usuário\" formControlName=\"email\"\n            autocomplete=\"current-password\">\n          <mat-error *ngIf=\"form.controls['email'].hasError('required')\">\n            Campo email obrigatório\n          </mat-error>\n        </mat-form-field>\n  \n\n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Digite a senha\" formControlName=\"password\" [type]=\"hideNewPassword ? 'password' : 'text'\" autocomplete=\"new-password\">\n          <mat-icon matSuffix (click)=\"hideNewPassword = !hideNewPassword\">\n            {{ hideNewPassword ? 'visibility' : 'visibility_off' }}\n          </mat-icon>  \n          <mat-error *ngIf=\"form.controls['password'].hasError('required')\">\n            Campo senha obrigatório\n          </mat-error>\n        </mat-form-field>\n\n  \n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Repita a senha\" formControlName=\"password_confirm\" [type]=\"hideNewPassword ? 'password' : 'text'\"\n            autocomplete=\"new-password\">\n          <mat-icon matSuffix (click)=\"hideNewPassword = !hideNewPassword\">\n            {{ hideNewPassword ? 'visibility' : 'visibility_off' }}\n          </mat-icon>  \n          <mat-error *ngIf=\"form.controls['password_confirm'].hasError('required')\">\n            Please confirm your new password\n          </mat-error>\n        </mat-form-field>\n\n\n        <mat-form-field class=\"full-width\">\n          <mat-label>Data de nascimento</mat-label>\n            <input matInput [matDatepicker]=\"picker\" formControlName=\"date_birth\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker></mat-datepicker>\n        </mat-form-field>\n\n  \n        <mat-form-field class=\"full-width\">\n          <mat-label>Sexo</mat-label>\n          <mat-select formControlName=\"genre\">            \n            <mat-option value=\"1\">Masculino</mat-option>\n            <mat-option value=\"2\">Feminino</mat-option>\n          </mat-select> \n        </mat-form-field>\n  \n        <button mat-raised-button color=\"primary\" [disabled]=\"form.invalid || disableSubmit\" (click)=\"registerUser()\">Cadastrar</button>\n\n        <a mat-button color=\"primary\" [routerLink]=\"['/auth/login']\">Já sou cliente</a>\n  \n      </div>\n  \n    </div>\n  \n  </form>\n  \n  <!-- <div class=\"password-rules\" fxFlex=\"65%\" fxFlex.sm=\"90%\" fxFlex.xs=\"95%\">\n      Password rules:\n      <mat-list>\n        <mat-list-item>\n          Must be at least 6 characters\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one non alphanumeric character\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one lowercase ('a'-'z')\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one uppercase ('A'-'Z')\n        </mat-list-item>\n      </mat-list>\n    </div> -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<form [formGroup]=\"form\">\n    <!-- <p>Use the form below to change your password.</p> -->\n  \n    <div fxLayout=\"row\">\n  \n      <div fxFlex=\"90%\" fxFlex.md=\"60%\" fxFlex.sm=\"50%\" fxFlex.xs=\"100%\" class=\"block-form\">\n  \n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Nome de usuário\" formControlName=\"name\"\n            autocomplete=\"name\"> \n          <mat-error *ngIf=\"form.controls['name'].hasError('required')\">\n            Campo nome obrigatório\n          </mat-error>\n        </mat-form-field>\n        \n\n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Email de usuário\" formControlName=\"email\"\n            autocomplete=\"current-password\">\n          <mat-error *ngIf=\"form.controls['email'].hasError('required')\">\n            Campo email obrigatório\n          </mat-error>\n        </mat-form-field>\n  \n\n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Digite a senha\" formControlName=\"password\" [type]=\"hideNewPassword ? 'password' : 'text'\" autocomplete=\"new-password\">\n          <mat-icon matSuffix (click)=\"hideNewPassword = !hideNewPassword\">\n            {{ hideNewPassword ? 'visibility' : 'visibility_off' }}\n          </mat-icon>  \n          <mat-error *ngIf=\"form.controls['password'].hasError('required')\">\n            Campo senha obrigatório\n          </mat-error>\n        </mat-form-field>\n\n  \n        <mat-form-field class=\"full-width\">\n          <input matInput placeholder=\"Repita a senha\" formControlName=\"password_confirm\" [type]=\"hideNewPassword ? 'password' : 'text'\"\n            autocomplete=\"new-password\">\n          <mat-icon matSuffix (click)=\"hideNewPassword = !hideNewPassword\">\n            {{ hideNewPassword ? 'visibility' : 'visibility_off' }}\n          </mat-icon>  \n          <mat-error *ngIf=\"form.controls['password_confirm'].hasError('required')\">\n            Please confirm your new password\n          </mat-error>\n        </mat-form-field>\n\n\n        <mat-form-field class=\"full-width\">\n          <mat-label>Data de nascimento</mat-label>\n            <input matInput [matDatepicker]=\"picker\" formControlName=\"date_birth\">\n            <mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>\n          <mat-datepicker #picker></mat-datepicker>\n        </mat-form-field>\n\n  \n        <mat-form-field class=\"full-width\">\n          <mat-label>Sexo</mat-label>\n          <mat-select formControlName=\"genre\">            \n            <mat-option value=\"1\">Masculino</mat-option>\n            <mat-option value=\"2\">Feminino</mat-option>\n          </mat-select> \n        </mat-form-field>\n  \n        <button mat-raised-button color=\"primary\" [disabled]=\"form.invalid || disableSubmit\" (click)=\"registerUser()\">Cadastrar</button>\n\n        <a mat-button color=\"primary\" [routerLink]=\"['/auth/login']\">Já sou cliente</a>\n  \n      </div>\n  \n    </div>\n  \n  </form>\n  \n  <!-- <div class=\"password-rules\" fxFlex=\"65%\" fxFlex.sm=\"90%\" fxFlex.xs=\"95%\">\n      Password rules:\n      <mat-list>\n        <mat-list-item>\n          Must be at least 6 characters\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one non alphanumeric character\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one lowercase ('a'-'z')\n        </mat-list-item>\n  \n        <mat-list-item>\n          Must contain at least one uppercase ('A'-'Z')\n        </mat-list-item>\n      </mat-list>\n    </div> -->");
 
 /***/ }),
 
@@ -22,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" fxLayout=\"row\" fxLayoutAlign=\"center none\">\n\n    <div fxFlex=\"95%\">\n  \n      <mat-card>\n        <mat-card-content>\n          <h2>Benefícios BomCupom</h2>\n  \n          <div fxLayout=\"row\" fxLayout.sm=\"column\" fxLayout.xs=\"column\">\n  \n            <div fxFlex=\"30%\" fxFlex.sm=\"95%\" fxFlex.xs=\"95%\">\n              <!-- <app-profile-details></app-profile-details> -->\n            </div>\n  \n            <div fxFlex></div>\n  \n            <div fxFlex=\"65%\" fxFlex.sm=\"95%\" fxFlex.xs=\"950%\">\n  \n              <mat-tab-group>\n                <mat-tab label=\"Change Password\">\n                  <app-register-user></app-register-user>\n                </mat-tab>\n              </mat-tab-group>  \n  \n            </div>\n  \n          </div>\n        </mat-card-content>\n      </mat-card>\n    </div>\n  \n  \n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\" fxLayout=\"row\" fxLayoutAlign=\"center none\">\n\n    <div fxFlex=\"95%\">\n  \n      <mat-card>\n        <mat-card-content>\n          <h2>Benefícios BomCupom</h2>\n  \n          <div fxLayout=\"row\" fxLayout.sm=\"column\" fxLayout.xs=\"column\">\n  \n            <div fxFlex=\"65%\" fxFlex.sm=\"95%\" fxFlex.xs=\"95%\">\n              <app-details-benefits></app-details-benefits>\n            </div>\n  \n            <div fxFlex></div>\n  \n            <div fxFlex=\"35%\" fxFlex.sm=\"95%\" fxFlex.xs=\"950%\">\n  \n              <mat-tab-group>\n                <mat-tab label=\"Novo Usuário\">\n                  <app-register-user></app-register-user>\n                </mat-tab>\n              </mat-tab-group>  \n  \n            </div>\n  \n          </div>\n        </mat-card-content>\n      </mat-card>\n    </div>\n  \n  \n  </div>");
 
 /***/ }),
 
@@ -62,6 +75,54 @@ var RegisterService = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
     ], RegisterService);
     return RegisterService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/register/details-benefits/details-benefits.component.css":
+/*!**************************************************************************!*\
+  !*** ./src/app/register/details-benefits/details-benefits.component.css ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".profile-card {\r\n    text-align: center;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    height: 100%;\r\n    /* background-image: url('angular/assets/images/backgrounds/register_2.jpg'); */\r\n}\r\n\r\nh1 \r\n{\r\n    color: white;\r\n    font-size: 20px;\r\n}\r\n\r\nlabel \r\n{\r\n    color: white;\r\n    font-size: 15px;\r\n}\r\n\r\nul.a \r\n{\r\n    list-style-type: circle;\r\n    color: white;\r\n    font-size: 14px;\r\n    margin-top: 2%;\r\n}\r\n\r\nul.a li \r\n{\r\n    margin-top: 2%;\r\n}\r\n \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVnaXN0ZXIvZGV0YWlscy1iZW5lZml0cy9kZXRhaWxzLWJlbmVmaXRzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsMkJBQTJCO0lBQzNCLDRCQUE0QjtJQUM1QixxQkFBcUI7SUFDckIsWUFBWTtJQUNaLCtFQUErRTtBQUNuRjs7QUFFQTs7SUFFSSxZQUFZO0lBQ1osZUFBZTtBQUNuQjs7QUFFQTs7SUFFSSxZQUFZO0lBQ1osZUFBZTtBQUNuQjs7QUFHQTs7SUFFSSx1QkFBdUI7SUFDdkIsWUFBWTtJQUNaLGVBQWU7SUFDZixjQUFjO0FBQ2xCOztBQUVBOztJQUVJLGNBQWM7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9yZWdpc3Rlci9kZXRhaWxzLWJlbmVmaXRzL2RldGFpbHMtYmVuZWZpdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9maWxlLWNhcmQge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogYXV0bztcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIC8qIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnYW5ndWxhci9hc3NldHMvaW1hZ2VzL2JhY2tncm91bmRzL3JlZ2lzdGVyXzIuanBnJyk7ICovXHJcbn1cclxuXHJcbmgxIFxyXG57XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbn1cclxuXHJcbmxhYmVsIFxyXG57XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBmb250LXNpemU6IDE1cHg7XHJcbn1cclxuXHJcblxyXG51bC5hIFxyXG57XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IGNpcmNsZTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgIG1hcmdpbi10b3A6IDIlO1xyXG59XHJcblxyXG51bC5hIGxpIFxyXG57XHJcbiAgICBtYXJnaW4tdG9wOiAyJTtcclxufVxyXG4gIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/register/details-benefits/details-benefits.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/register/details-benefits/details-benefits.component.ts ***!
+  \*************************************************************************/
+/*! exports provided: DetailsBenefitsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DetailsBenefitsComponent", function() { return DetailsBenefitsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var DetailsBenefitsComponent = /** @class */ (function () {
+    function DetailsBenefitsComponent() {
+        this.backgroundImg = 'angular/assets/images/backgrounds/register.jpg';
+    }
+    DetailsBenefitsComponent.prototype.ngOnInit = function () {
+    };
+    DetailsBenefitsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-details-benefits',
+            template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./details-benefits.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/register/details-benefits/details-benefits.component.html")).default,
+            styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./details-benefits.component.css */ "./src/app/register/details-benefits/details-benefits.component.css")).default]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], DetailsBenefitsComponent);
+    return DetailsBenefitsComponent;
 }());
 
 
@@ -117,7 +178,7 @@ var RegisterRoutingModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".password-rules .mat-divider {\r\n    position: unset !important;\r\n}\r\n.container{\r\n    padding-top: 20px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVnaXN0ZXIvcmVnaXN0ZXItdXNlci9yZWdpc3Rlci11c2VyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwwQkFBMEI7QUFDOUI7QUFDQTtJQUNJLGlCQUFpQjtBQUNyQiIsImZpbGUiOiJzcmMvYXBwL3JlZ2lzdGVyL3JlZ2lzdGVyLXVzZXIvcmVnaXN0ZXItdXNlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBhc3N3b3JkLXJ1bGVzIC5tYXQtZGl2aWRlciB7XHJcbiAgICBwb3NpdGlvbjogdW5zZXQgIWltcG9ydGFudDtcclxufVxyXG4uY29udGFpbmVye1xyXG4gICAgcGFkZGluZy10b3A6IDIwcHg7XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".password-rules .mat-divider {\r\n    position: unset !important;\r\n}\r\n.container{\r\n    padding-top: 20px;\r\n}\r\n.block-form\r\n{\r\n    margin: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVnaXN0ZXIvcmVnaXN0ZXItdXNlci9yZWdpc3Rlci11c2VyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSwwQkFBMEI7QUFDOUI7QUFDQTtJQUNJLGlCQUFpQjtBQUNyQjtBQUdBOztJQUVJLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9yZWdpc3Rlci9yZWdpc3Rlci11c2VyL3JlZ2lzdGVyLXVzZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYXNzd29yZC1ydWxlcyAubWF0LWRpdmlkZXIge1xyXG4gICAgcG9zaXRpb246IHVuc2V0ICFpbXBvcnRhbnQ7XHJcbn1cclxuLmNvbnRhaW5lcntcclxuICAgIHBhZGRpbmctdG9wOiAyMHB4O1xyXG59XHJcblxyXG5cclxuLmJsb2NrLWZvcm1cclxue1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG59Il19 */");
 
 /***/ }),
 
@@ -257,6 +318,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _register_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./register-routing.module */ "./src/app/register/register-routing.module.ts");
 /* harmony import */ var _register_user_register_user_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./register-user/register-user.component */ "./src/app/register/register-user/register-user.component.ts");
 /* harmony import */ var _register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./register/register.component */ "./src/app/register/register/register.component.ts");
+/* harmony import */ var _details_benefits_details_benefits_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./details-benefits/details-benefits.component */ "./src/app/register/details-benefits/details-benefits.component.ts");
+
 
 
 
@@ -272,7 +335,8 @@ var RegisterModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
                 _register_user_register_user_component__WEBPACK_IMPORTED_MODULE_6__["RegisterUserComponent"],
-                _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"]
+                _register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"],
+                _details_benefits_details_benefits_component__WEBPACK_IMPORTED_MODULE_8__["DetailsBenefitsComponent"]
             ],
             imports: [
                 _angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"],
@@ -298,7 +362,7 @@ var RegisterModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3JlZ2lzdGVyL3JlZ2lzdGVyL3JlZ2lzdGVyLmNvbXBvbmVudC5jc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\nmat-card\r\n{\r\n    margin-top: 3%;\r\n    height: 500px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVnaXN0ZXIvcmVnaXN0ZXIvcmVnaXN0ZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7O0lBRUksY0FBYztJQUNkLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9yZWdpc3Rlci9yZWdpc3Rlci9yZWdpc3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbm1hdC1jYXJkXHJcbntcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG4gICAgaGVpZ2h0OiA1MDBweDtcclxufSJdfQ== */");
 
 /***/ }),
 
