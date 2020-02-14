@@ -194,7 +194,7 @@ var LoginComponent = /** @class */ (function () {
         var rememberMe = this.loginForm.get('rememberMe').value;
         this.loading = true;
         this.authenticationService
-            .login(email.toLowerCase(), password)
+            .login(this.loginForm.value.email.toLowerCase(), this.loginForm.value.password)
             .subscribe(function (data) {
             if (rememberMe) {
                 localStorage.setItem('savedUserEmail', email);
@@ -202,9 +202,9 @@ var LoginComponent = /** @class */ (function () {
             else {
                 localStorage.removeItem('savedUserEmail');
             }
-            _this.router.navigate(['/']);
+            _this.router.navigate(['/dashboard']);
         }, function (error) {
-            _this.notificationService.openSnackBar(error.error);
+            _this.notificationService.openSnackBar(error.error.message);
             _this.loading = false;
         });
     };
