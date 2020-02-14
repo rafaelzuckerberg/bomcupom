@@ -674,8 +674,7 @@ var appRoutes = [
     },
     {
         path: 'register',
-        loadChildren: './register/register.module#RegisterModule',
-        canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
+        loadChildren: './register/register.module#RegisterModule'
     },
     {
         path: '**',
