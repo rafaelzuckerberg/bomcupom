@@ -334,7 +334,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navbar-container\" [class.example-is-mobile]=\"mobileQuery.matches\">\r\n\r\n  <!-- Top navbar -->\r\n  <mat-toolbar class=\"navbar\" color=\"primary\">\r\n\r\n    <button mat-icon-button (click)=\"snav.toggle()\">\r\n      <mat-icon>menu</mat-icon>\r\n    </button>\r\n\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\" matTooltip=\"Home\">\r\n      <h1>\r\n        BomCupom\r\n      </h1>\r\n    </a>\r\n\r\n    <span class=\"navbar-spacer\"></span>\r\n\r\n    <button mat-icon-button [matMenuTriggerFor]=\"notificationMenu\">\r\n      <mat-icon matBadge=\"2\" matBadgeColor=\"accent\">notifications</mat-icon>\r\n    </button>\r\n    <mat-menu #notificationMenu=\"matMenu\" xPosition=\"before\" yPosition=\"above\" [overlapTrigger]=\"false\">\r\n\r\n      <a mat-menu-item>\r\n        <span>You have new tasks</span>\r\n      </a>\r\n      <a mat-menu-item>\r\n        <span>You have a new message</span>\r\n      </a>\r\n\r\n    </mat-menu>\r\n\r\n\r\n\r\n    <button mat-button [matMenuTriggerFor]=\"userMenu\">\r\n      <mat-icon>person</mat-icon>\r\n      <span fxShow fxHide.xs>\r\n        {{userName}}\r\n      </span>\r\n    </button>\r\n    <mat-menu #userMenu=\"matMenu\" xPosition=\"before\" yPosition=\"above\" [overlapTrigger]=\"false\">\r\n\r\n      <a mat-menu-item [routerLink]=\"['/account/profile']\">\r\n        <mat-icon>person</mat-icon>\r\n        <span>Account</span>\r\n      </a>\r\n\r\n      <a mat-menu-item ([routerLink]=\"['/auth/login']\")>\r\n        <mat-icon>exit_to_app</mat-icon>\r\n        <span>Log out</span>\r\n      </a>\r\n\r\n    </mat-menu>\r\n\r\n  </mat-toolbar>\r\n\r\n  <mat-sidenav-container class=\"navbar-sidenav-container\">\r\n    <!-- Side nav -->\r\n    <mat-sidenav #snav [opened]=\"!mobileQuery.matches\" [mode]=\"mobileQuery.matches ? 'over' : 'side'\"\r\n      [fixedInViewport]=\"mobileQuery.matches\" fixedTopGap=\"56\" class=\"sidenav\">\r\n\r\n      <mat-nav-list>\r\n        <h3 mat-subheader>Home</h3>\r\n\r\n        <a mat-list-item [routerLink]=\"['/dashboard']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            dashboard\r\n          </mat-icon>\r\n          <p mat-line> Dashboard </p>\r\n        </a>\r\n\r\n        <a mat-list-item [routerLink]=\"['/customers']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            business\r\n          </mat-icon>\r\n          <p mat-line> Customers </p>\r\n        </a>\r\n        <a mat-list-item [routerLink]=\"['/users']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            people\r\n          </mat-icon>\r\n          <p mat-line> Users </p>\r\n        </a>\r\n\r\n        <!-- <a mat-list-item [routerLink]=\"['/account/profile']\">\r\n          <mat-icon mat-list-icon>person</mat-icon>\r\n          <p mat-line> Account </p>\r\n        </a> -->\r\n\r\n        <!-- <a mat-list-item [routerLink]=\"['/auth/login']\">\r\n          <mat-icon mat-list-icon>exit_to_app</mat-icon>\r\n          <p mat-line> Log out </p>\r\n        </a> -->\r\n\r\n        <mat-divider></mat-divider>\r\n\r\n        <h3 mat-subheader>Resources</h3>\r\n\r\n        <!-- <a mat-list-item [routerLink]=\"['/icons']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            toll\r\n          </mat-icon>\r\n          <p mat-line> Icons </p>\r\n        </a>\r\n        <a mat-list-item [routerLink]=\"['/typography']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            font_download\r\n          </mat-icon>\r\n          <p mat-line> Typography </p>\r\n        </a>\r\n\r\n        <a mat-list-item href=\"https://material.angular.io/components/categories\" target=\"_blank\">\r\n          <mat-icon mat-list-icon>\r\n            link\r\n          </mat-icon>\r\n          <p mat-line> Material Components </p>\r\n        </a>\r\n\r\n        <a id=\"push-bottom\" mat-list-item [routerLink]=\"['/about']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            info_outline\r\n          </mat-icon>\r\n          <p mat-line> About </p>\r\n        </a> -->\r\n      </mat-nav-list>\r\n\r\n    </mat-sidenav>\r\n\r\n    <!-- Main content -->\r\n    <mat-sidenav-content class=\"sidenav-content\">\r\n\r\n      <div class=\"progress-bar-container\">\r\n        <mat-progress-bar color=\"accent\" mode=\"indeterminate\" *ngIf=\"spinnerService.visibility | async\">\r\n        </mat-progress-bar>\r\n        <!-- <mat-spinner class=\"spinner\" [diameter]=\"50\" *ngIf=\"showSpinner\"></mat-spinner> -->\r\n      </div>\r\n\r\n\r\n      <router-outlet></router-outlet>\r\n\r\n    </mat-sidenav-content>\r\n  </mat-sidenav-container>\r\n\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navbar-container\" [class.example-is-mobile]=\"mobileQuery.matches\">\r\n\r\n  <!-- Top navbar -->\r\n  <mat-toolbar class=\"navbar\" color=\"primary\">\r\n\r\n    <button mat-icon-button (click)=\"snav.toggle()\">\r\n      <mat-icon>menu</mat-icon>\r\n    </button>\r\n\r\n    <a class=\"navbar-brand\" [routerLink]=\"['/']\" matTooltip=\"Home\">\r\n      <h1>\r\n        BomCupom\r\n      </h1>\r\n    </a>\r\n\r\n    <span class=\"navbar-spacer\"></span>\r\n\r\n    <button mat-icon-button [matMenuTriggerFor]=\"notificationMenu\">\r\n      <mat-icon matBadge=\"2\" matBadgeColor=\"accent\">notifications</mat-icon>\r\n    </button>\r\n    <mat-menu #notificationMenu=\"matMenu\" xPosition=\"before\" yPosition=\"above\" [overlapTrigger]=\"false\">\r\n\r\n      <a mat-menu-item>\r\n        <span>You have new tasks</span>\r\n      </a>\r\n      <a mat-menu-item>\r\n        <span>You have a new message</span>\r\n      </a>\r\n\r\n    </mat-menu>\r\n\r\n\r\n\r\n    <button mat-button [matMenuTriggerFor]=\"userMenu\">\r\n      <mat-icon>person</mat-icon>\r\n      <span fxShow fxHide.xs>\r\n        {{userName}}\r\n      </span>\r\n    </button>\r\n    <mat-menu #userMenu=\"matMenu\" xPosition=\"before\" yPosition=\"above\" [overlapTrigger]=\"false\">\r\n\r\n      <a mat-menu-item [routerLink]=\"['/account/profile']\">\r\n        <mat-icon>person</mat-icon>\r\n        <span>Account</span>\r\n      </a>\r\n\r\n      <a mat-menu-item (click)=\"logout()\">\r\n        <mat-icon>exit_to_app</mat-icon>\r\n        <span>Log out</span>\r\n      </a>\r\n\r\n    </mat-menu>\r\n\r\n  </mat-toolbar>\r\n\r\n  <mat-sidenav-container class=\"navbar-sidenav-container\">\r\n    <!-- Side nav -->\r\n    <mat-sidenav #snav [opened]=\"!mobileQuery.matches\" [mode]=\"mobileQuery.matches ? 'over' : 'side'\"\r\n      [fixedInViewport]=\"mobileQuery.matches\" fixedTopGap=\"56\" class=\"sidenav\">\r\n\r\n      <mat-nav-list>\r\n        <h3 mat-subheader>Home</h3>\r\n\r\n        <a mat-list-item [routerLink]=\"['/dashboard']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            dashboard\r\n          </mat-icon>\r\n          <p mat-line> Dashboard </p>\r\n        </a>\r\n\r\n        <a mat-list-item [routerLink]=\"['/customers']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            business\r\n          </mat-icon>\r\n          <p mat-line> Customers </p>\r\n        </a>\r\n        <a mat-list-item [routerLink]=\"['/users']\" routerLinkActive=\"active\">\r\n          <mat-icon mat-list-icon>\r\n            people\r\n          </mat-icon>\r\n          <p mat-line> Users </p>\r\n        </a>\r\n        \r\n      </mat-nav-list>\r\n\r\n    </mat-sidenav>\r\n\r\n    <!-- Main content -->\r\n    <mat-sidenav-content class=\"sidenav-content\">\r\n\r\n      <div class=\"progress-bar-container\">\r\n        <mat-progress-bar color=\"accent\" mode=\"indeterminate\" *ngIf=\"spinnerService.visibility | async\">\r\n        </mat-progress-bar>\r\n        <!-- <mat-spinner class=\"spinner\" [diameter]=\"50\" *ngIf=\"showSpinner\"></mat-spinner> -->\r\n      </div>\r\n\r\n\r\n      <router-outlet></router-outlet>\r\n\r\n    </mat-sidenav-content>\r\n  </mat-sidenav-container>\r\n\r\n</div>");
 
 /***/ }),
 
@@ -668,26 +668,6 @@ var appRoutes = [
         canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
     },
     {
-        path: 'users',
-        loadChildren: './users/users.module#UsersModule',
-        canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
-    },
-    {
-        path: 'account',
-        loadChildren: './account/account.module#AccountModule',
-        canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
-    },
-    {
-        path: 'icons',
-        loadChildren: './icons/icons.module#IconsModule',
-        canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
-    },
-    {
-        path: 'typography',
-        loadChildren: './typography/typography.module#TypographyModule',
-        canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
-    },
-    {
         path: 'about',
         loadChildren: './about/about.module#AboutModule',
         canActivate: [_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
@@ -977,11 +957,12 @@ var AuthGuard = /** @class */ (function () {
     AuthGuard.prototype.canActivate = function () {
         var user = this.authService.getCurrentUser();
         if (user && user.expiration) {
+            console.log(moment__WEBPACK_IMPORTED_MODULE_3__());
             if (moment__WEBPACK_IMPORTED_MODULE_3__() < moment__WEBPACK_IMPORTED_MODULE_3__(user.expiration)) {
                 return true;
             }
             else {
-                this.notificationService.openSnackBar('Your session has expired');
+                this.notificationService.openSnackBar('Sua sessão expirou!');
                 this.router.navigate(['auth/login']);
                 return false;
             }
@@ -1202,7 +1183,8 @@ var AuthenticationService = /** @class */ (function () {
     };
     AuthenticationService.prototype.logout = function () {
         // clear token remove user from local storage to log user out
-        this.localStorage.removeItem('currentUser');
+        // this.localStorage.removeItem('currentUser');
+        localStorage.clear();
     };
     AuthenticationService.prototype.getCurrentUser = function () {
         // TODO: Enable after implementation
@@ -1213,7 +1195,7 @@ var AuthenticationService = /** @class */ (function () {
             email: 'john.doe@gmail.com',
             id: '12312323232',
             alias: 'john.doe@gmail.com'.split('@')[0],
-            expiration: moment__WEBPACK_IMPORTED_MODULE_4__().add(1, 'days').toDate(),
+            // expiration: moment().add(1, 'days').toDate(),
             fullName: 'John Doe'
         };
     };
@@ -1690,12 +1672,14 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LayoutComponent", function() { return LayoutComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm5/layout.es5.js");
-/* harmony import */ var rxjs_observable_TimerObservable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/observable/TimerObservable */ "./node_modules/rxjs-compat/_esm5/observable/TimerObservable.js");
-/* harmony import */ var _core_services_auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../core/services/auth.service */ "./src/app/core/services/auth.service.ts");
-/* harmony import */ var _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../core/services/spinner.service */ "./src/app/core/services/spinner.service.ts");
-/* harmony import */ var src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/core/guards/auth.guard */ "./src/app/core/guards/auth.guard.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/cdk/layout */ "./node_modules/@angular/cdk/esm5/layout.es5.js");
+/* harmony import */ var rxjs_observable_TimerObservable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/observable/TimerObservable */ "./node_modules/rxjs-compat/_esm5/observable/TimerObservable.js");
+/* harmony import */ var _core_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../core/services/auth.service */ "./src/app/core/services/auth.service.ts");
+/* harmony import */ var _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../core/services/spinner.service */ "./src/app/core/services/spinner.service.ts");
+/* harmony import */ var src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/core/guards/auth.guard */ "./src/app/core/guards/auth.guard.ts");
+
 
 
 
@@ -1704,11 +1688,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var LayoutComponent = /** @class */ (function () {
-    function LayoutComponent(changeDetectorRef, media, spinnerService, authService, authGuard) {
+    function LayoutComponent(changeDetectorRef, media, spinnerService, authService, router, authGuard) {
         this.changeDetectorRef = changeDetectorRef;
         this.media = media;
         this.spinnerService = spinnerService;
         this.authService = authService;
+        this.router = router;
         this.authGuard = authGuard;
         this.mobileQuery = this.media.matchMedia('(max-width: 1000px)');
         this._mobileQueryListener = function () { return changeDetectorRef.detectChanges(); };
@@ -1721,7 +1706,7 @@ var LayoutComponent = /** @class */ (function () {
         this.isAdmin = user.isAdmin;
         this.userName = user.fullName;
         // Auto log-out subscription
-        var timer = rxjs_observable_TimerObservable__WEBPACK_IMPORTED_MODULE_3__["TimerObservable"].create(2000, 5000);
+        var timer = rxjs_observable_TimerObservable__WEBPACK_IMPORTED_MODULE_4__["TimerObservable"].create(2000, 5000);
         this.autoLogoutSubscription = timer.subscribe(function (t) {
             _this.authGuard.canActivate();
         });
@@ -1734,24 +1719,31 @@ var LayoutComponent = /** @class */ (function () {
     LayoutComponent.prototype.ngAfterViewInit = function () {
         this.changeDetectorRef.detectChanges();
     };
+    LayoutComponent.prototype.logout = function () {
+        // this.authService.logout();
+        localStorage.clear();
+        this.router.navigate(['/auth/login']);
+    };
     LayoutComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] },
-        { type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_2__["MediaMatcher"] },
-        { type: _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_5__["SpinnerService"] },
-        { type: _core_services_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthenticationService"] },
-        { type: src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_6__["AuthGuard"] }
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ChangeDetectorRef"] },
+        { type: _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["MediaMatcher"] },
+        { type: _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_6__["SpinnerService"] },
+        { type: _core_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthenticationService"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] },
+        { type: src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_7__["AuthGuard"] }
     ]; };
     LayoutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-layout',
             template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./layout.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/layout/layout.component.html")).default,
             styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./layout.component.css */ "./src/app/shared/layout/layout.component.css")).default]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"],
-            _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_2__["MediaMatcher"],
-            _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_5__["SpinnerService"],
-            _core_services_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthenticationService"],
-            src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_6__["AuthGuard"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_2__["ChangeDetectorRef"],
+            _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_3__["MediaMatcher"],
+            _core_services_spinner_service__WEBPACK_IMPORTED_MODULE_6__["SpinnerService"],
+            _core_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthenticationService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"],
+            src_app_core_guards_auth_guard__WEBPACK_IMPORTED_MODULE_7__["AuthGuard"]])
     ], LayoutComponent);
     return LayoutComponent;
 }());

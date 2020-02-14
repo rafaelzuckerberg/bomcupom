@@ -175,7 +175,7 @@ var LoginComponent = /** @class */ (function () {
         this.authenticationService = authenticationService;
     }
     LoginComponent.prototype.ngOnInit = function () {
-        this.titleService.setTitle('angular-material-template - Login');
+        this.titleService.setTitle('Login');
         this.authenticationService.logout();
         this.createForm();
     };
@@ -371,7 +371,7 @@ var PasswordResetComponent = /** @class */ (function () {
         this.authService = authService;
         this.notificationService = notificationService;
         this.titleService = titleService;
-        this.titleService.setTitle('angular-material-template - Password Reset');
+        this.titleService.setTitle('Resetar senha');
         this.hideNewPassword = true;
         this.hideNewPasswordConfirm = true;
     }

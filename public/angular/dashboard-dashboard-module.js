@@ -58,7 +58,7 @@ var DashboardHomeComponent = /** @class */ (function () {
     DashboardHomeComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.currentUser = this.authService.getCurrentUser();
-        this.titleService.setTitle('angular-material-template - Dashboard');
+        this.titleService.setTitle('Dashboard - Dashboard');
         this.logger.log('Dashboard loaded');
         setTimeout(function () {
             _this.notificationService.openSnackBar('Welcome!');
