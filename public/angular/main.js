@@ -1961,7 +1961,8 @@ __webpack_require__.r(__webpack_exports__);
 var environment = {
     production: false,
     logLevel: ngx_logger__WEBPACK_IMPORTED_MODULE_1__["NgxLoggerLevel"].TRACE,
-    serverLogLevel: ngx_logger__WEBPACK_IMPORTED_MODULE_1__["NgxLoggerLevel"].OFF
+    serverLogLevel: ngx_logger__WEBPACK_IMPORTED_MODULE_1__["NgxLoggerLevel"].OFF,
+    api: 'http://127.0.0.1:8000/api/'
 };
 
 
