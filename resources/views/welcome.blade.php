@@ -28,10 +28,10 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="angular/styles.33f6b7a9e9ab01fa8ba4.css"></head>
+</head>
 
 <body class="mat-app-background">
   <app-root></app-root>
-<script src="angular/runtime.e1243cb28f2bfc58ad9e.js" defer></script><script src="angular/polyfills-es5.58e839682d975f30905a.js" nomodule defer></script><script src="angular/polyfills.25682aa6ad568a805b27.js" defer></script><script src="angular/main.40de48454d95571a2dbd.js" defer></script></body>
+<script src="angular/runtime.js" defer></script><script src="angular/polyfills-es5.js" nomodule defer></script><script src="angular/polyfills.js" defer></script><script src="angular/styles.js" defer></script><script src="angular/vendor.js" defer></script><script src="angular/main.js" defer></script></body>
 
 </html>
